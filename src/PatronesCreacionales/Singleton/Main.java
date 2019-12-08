@@ -2,6 +2,8 @@ package PatronesCreacionales.Singleton;
 
 /*Ensure a class only has one instance, and provide a global point of access to it*/
 
+import java.util.Set;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +15,8 @@ public class Main {
 //        System.out.println(conexion.hashCode());
 //        System.out.println(conexion1.hashCode());
 //        System.out.println(conexion2.hashCode());
+
+        Set<String> alumonos;
 
         Thread t1 = new Thread(new Runnable() {
             @Override
