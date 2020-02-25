@@ -4,6 +4,8 @@ package PatronesDeComportamiento.Observer;
  * Define a one-to-many dependency between objects so that when one object changes state,
  * all its dependents are notified and updated automatically*/
 
+/*tambien se podria implementar una clase intermedia, esta sera informada por el producto y luego esta informara a los observadores*/
+
 public class Main {
 
     public static void main(String[] args) {
